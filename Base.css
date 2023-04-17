@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav {
+        background: #343A40;
+        padding: 0 15px;
+    }
+    .menu {
+          display: flex;
+          align-items: flex-start;     
+          flex-wrap: nowrap;
+          background: none;
+      } 
+      .logo {
+        color: black;
+        font-size: 20px;
+        padding: 7.5px 10px 7.5px 0;
+        order: 0;
+      }
+
+      .item {
+          order: 1;
+          position: relative;
+          display: block; 
+          width: auto;
+          padding: 10px
+     }
+
+     a:link { 
+        text-decoration: none;
+        color: #ffffff;
+     }
+
+     
