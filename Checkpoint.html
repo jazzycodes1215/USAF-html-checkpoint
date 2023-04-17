@@ -10,22 +10,41 @@
         @import url('./Base.css');
     </style>
 </head>
-<nav>
-  <ul class="menu">
-      <li class="logo"><a href="#">GMDB</a></li>
-      <li class="item"><a href="#">Home</a></li>
-      <li class="item"><a href="#">About</a></li>
-      <li class="item">
-        <div class="search-container">
-          <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search">
+<div id="header" class="header-base">
+  <header id="main-header-new">
+    <nav class="nav black">
+      <!-- Main Navigation Bar -->
+      <div id="nav-bar-full">
+      <!-- Left Side Of Navigation Bar -->
+      <div id="main-nav" class="main-nav-left app-menu-apps">
+      <div class="main-nav-logo"><a href="#">GMDB</a></div>
+        <!-- MenuApps -->
+        <div class="app-menu-apps-link">
+          <a href="#">
+            <span class="link-full">Home</span>
+          </a>
+        </div>
+        <div class="app-menu-apps-link">
+          <a href="#">
+            <span class="link-full">Login</span>
+          </a>
+        </div>
+      </div>
+      <!-- Right Side Of Navigation Bar -->
+      <div class="main-nav-right">
+        <!-- Navigation Search Bar -->
+        <div class="app-controls search-control app-desktop-search-control">
+          <form>
+            <input type="text" placeholder="Search" name="search">
             <button type="submit">Search</button>
           </form>
         </div>
-      </li>
-      </ul>
-    
-    </nav>
+      </div>
+     </div>
+   </nav>
+  </header>
+</div>
+
 <body>
     <h1>Hello World.</h1>
 </body>
