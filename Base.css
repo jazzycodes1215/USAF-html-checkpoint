@@ -4,6 +4,10 @@ header * {
     margin: 0;
 }
 
+div#header {
+  min-height: 20px;
+}
+
 nav.nav.black {
   background-color: #343A40;
 }   
@@ -107,3 +111,9 @@ nav.nav.black {
   padding: 0 5px;
 }
 
+.login-page-content .login-main > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
