@@ -35,3 +35,39 @@ nav.nav.black {
   width: 100%;
 }
 
+#main-header-new nav.nav.black .nav-bar-full .nav-bar-left {
+  display: flex;
+  height: 100%;
+}
+
+#main-header-new .main-nav-logo {
+  border-right: 1px solid #7fcbcd;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#main-header-new .main-nav-logo a {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+#main-header-new .app-menu-apps-link {
+  border-right: 1px solid #7fcbcd;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#main-header-new .app-menu-apps-link a {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
