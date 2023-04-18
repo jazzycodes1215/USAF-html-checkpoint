@@ -8,8 +8,7 @@ header * {
 }
 
 div#header {
-  min-height: 20px;
-  padding: 36px 36px 30px;
+  padding: 36px 36px 0;
 }
 
 nav.nav.black {
