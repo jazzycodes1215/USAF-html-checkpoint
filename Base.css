@@ -41,23 +41,19 @@ nav.nav.black {
 }
 
 #main-header-new .main-nav-logo {
-  border-right: 1px solid #7fcbcd;
   box-sizing: border-box;
   height: 100%;
 }
 
 #main-header-new .main-nav-logo a {
   color: #fff;
-  cursor: pointer;
   display: inline-block;
-  padding: 14px 20px;
+  padding: 14px 10px;
   text-decoration: none;
-  text-transform: uppercase;
   white-space: nowrap;
 }
 
 #main-header-new .app-menu-apps-link {
-  border-right: 1px solid #7fcbcd;
   box-sizing: border-box;
   height: 100%;
 }
@@ -66,8 +62,48 @@ nav.nav.black {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  padding: 14px 20px;
+  padding: 14px 10px;
   text-decoration: none;
-  text-transform: uppercase;
   white-space: nowrap;
 }
+
+#main-header-new nav.nav.black .nav-bar-full .nav-bar-right {
+  align-self: center;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  justify-content: flex-end;
+  position: relative;
+}
+
+#main-header-new .app-desktop-search-control {
+  align-items: center;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 0 12px;
+  position: relative;
+  width: 300px;
+}
+
+#main-header-new .search-box {
+  width: 120px;
+  height: 30px;
+  border-radius: 3px;
+  border-style: none;
+  padding: 0 0 0 10px;
+}
+
+#main-header-new .submit-button {
+  height: 30px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #DCAE3F;
+  color: #DCAE3F;
+  background: none;
+  font-size: 11px;
+  padding: 0 5px;
+}
+
