@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         @import url('./Base.css');
-        @import url('./Homepage.css');
+        @import url('./About.css');
     </style>
 </head>
 <div id="header" class="header-base">
@@ -49,17 +49,27 @@
    </nav>
   </header>
 </div>
-  <body>
-    <section class="homepage-movies">
-       <div class="movie-covers">
-        <img class="movie-img" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg" alt="30 Mar 2018 - Poster Star Wars@pngkey.com" > 
-        <img class="movie-img" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" alt="Star-Wars">
-        <img class="movie-img" src="https://www.themoviedb.org/t/p/w220_and_h330_face/tO3EoFJj0FJjKelDW5SUtquDIy2.jpg" alt="Star-Wars">
-        <img class="movie-img" src="https://www.themoviedb.org/t/p/w220_and_h330_face/rEv1xUz74bBOcWpMgb3nuDuEfOu.jpg" alt="Star-Wars">
-        <img class="movie-img" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg" alt="Star-Wars">
-        <img class="movie-img" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bONYUEn7iMFCebhDuqNG7hqqwoO.jpg" alt="Star-Wars">
-        <img class="movie-img" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/n1Jjc0gkxHpXYXppSCtJWx6mHA9.jpg" alt="Star-Wars">
-       </div>
-    </section>
+<body>
+    <div id="back-to-results-banner" class="btr-banner">
+        <a href="#" class="btr-link">Back to results</a>
+    </div>
+ <div class="about-movie">
+    <img class="movie-img" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" alt="Star-Wars">
+    <form class="comment-form">
+        <div class="comment-row">
+          <label for="commentInp" class="comment-form-label">Leave a comment:</label>
+        </div>
+        <div>
+          <input id="commentInp" class="input-module2" type="text" name="commentInp">
+        </div>
+        <button class="comment-button" type="submit">Submit</button>
+       </form>
+    <div class="movie-desc">
+        <h1>The Godfather</h1>
+        <h2>Released Mar 24, 1972</h2>
+        <H3>Crime, Drama | Marion Brando, Al Pacino, James Caan, Richard S. Castellano<br>
+        The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</H3>
+    </div>
+</div>
 </body>
 </html>
